@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add students</title>
+  <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+  td {
+    border: 1px solid black;
+    padding: 5px;
+
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .name-input {
+    border: none;
+    width: 500px;
+    padding: 0;
+  }
+
+  .white {
+    color: white;
+    background-color: #363E4B;
+  }
+
+  h1 {
+    margin-top: 50px;
+  }
+</style>
+
+<body>
+  <div class="container-fluid white" style="background-color: #363E4B;  height: 100px;">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="mt-3" align="center">First Registration form</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <form>
+          <div class="form-group d-flex">
+            <label for="exampleInputEmail1" class="mt-1">Child's name:</label>
+            <input type="text" class="form-control ml-3" placeholder="Enter name" style="width: 1000px;">
+
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="form-group" >
+          <div class="row ">
+            <div class="col-3 mt-4 ">
+              <label>Child's Age:</label>
+
+            </div>
+            <div class="col-4 mt-4">
+              <label>Month</label>
+              <input type="number" style="width: 80px;">
+            </div>
+            <div class="col-5 mt-4">
+              <label>Year</label>
+              <input type="number" style="width: 80px;">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="d-flex mt-4" style="margin-left: 100px;">
+          <p class="mt-2">Select gender:</p>
+          <div class="form-group ml-2 p-2">
+            <label class="p-1">Male</label>
+            <input type="checkbox" style="height: 15px; width: 15px;">
+            <label  class="p-1">Female</label>
+            <input type="checkbox" style="height: 15px; width: 15px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6" style="border: 1px solid black; border-right: none;">
+          <h4 style="border-bottom: 1px solid black;" class="p-3 white"> Admission Required for</h4>
+
+          <div class="row">
+            <div class="col-6">
+              <table border="1" style="width: 200px;">
+                <thead>
+                  <th colspan="2" class="pt-2 pb-2 white"><span style="margin-left: 60px;">Pre School</span> </th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Pre School </b>
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  <tr>
+                    <td>
+                      <b class="ml-3">Nusery </b>
+                    </td>
+
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Prep </b>
+
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="col-6">
+              <table border="1" style="width: 200px;" class="ml-5">
+                <thead>
+                  <th colspan="2" class="pt-2 pb-2 white"><span style="margin-left: 60px;">Elementary</span> </th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-VI </b>
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-VII </b>
+                    </td>
+
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-VIII </b>
+
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-6">
+              <table border="1" style="width: 200px;" class="mb-2">
+                <thead>
+                  <th colspan="2" class="pt-2 pb-2 white"><span style="margin-left: 60px;">Primary</span> </th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-I </b>
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  <tr>
+                    <td>
+                      <b class="ml-3">Class-II </b>
+                    </td>
+
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b class="ml-3">Class-III </b>
+
+                    </td>
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-IV </b>
+
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <b class="ml-3">Class-V</b>
+
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="col-6">
+              <table border="1" style="width: 200px;" class="ml-5">
+                <thead>
+                  <th colspan="2" class="pt-2 pb-2 white"><span style="margin-left: 60px;">Secondary</span> </th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-IX </b>
+                    </td>
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  <tr>
+                    <td>
+                      <b class="ml-3"> Class-X </b>
+                    </td>
+
+
+                    <td>
+                      <input type="checkbox" style="height: 25px; width: 25px;" class="mt-1 ml-4 p-0">
+                    </td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6" style="border: 1px solid black;">
+          <h4 style="border-bottom: 1px solid black;" class="p-3 white">What is the Admission Required?</h4>
+          <div class="container" style="margin-top: 0px;">
+            <div class="row">
+              <div class="col-12">
+                <h5><b>For playgroup only</b></h5>
+                <div class="row">
+                  <div class="col-6">
+                    <p><b>For April session</b></p>
+                    <div class="row">
+                      <div class="col-6">
+                        <p style="border:1px solid black; padding: 10px" class="white"><b class="ml-1"> This year</b>
+                        </p>
+                        <input type="text" style="width: 100px;  height: 40px;">
+
+                      </div>
+                      <div class="col-6">
+                        <p style="border:1px solid black; padding: 10px" class="white"><b class="ml-1"> Next year</b>
+                        </p>
+                        <input type="text" style="width: 100px;  height: 40px;">
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                  </p>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-6">
+
+                <div class="row">
+                  <div class="col-12">
+                    <h5><b>For playgroup only</b></h5>
+                    <p><b>For september session</b></p>
+
+                  </div>
+                </div>
+                <div class="row mt-0">
+                  <div class="col-6">
+
+                    <p style="border:1px solid black; padding: 10px" class="white"><b class="ml-1"> This year</b></p>
+                    <input type="text" style="width: 100px;">
+                  </div>
+                  <div class="col-6">
+                    <p style="border:1px solid black; padding: 10px" class="white"><b class="ml-1"> Next year</b></p>
+                    <input type="text" style="width: 100px;">
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="row mt-3">
+              <div class="col-6">
+
+                <div class="row">
+                  <div class="col-12">
+                    <h5><b>For nusery to class X</b></h5>
+
+
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+
+                    <p style="border:1px solid black; padding: 10px" class="white"><b class="ml-1"> This year</b></p>
+                    <input type="text" style="width: 100px;">
+                  </div>
+                  <div class="col-6">
+                    <p style="border:1px solid black; padding: 10px" class="white"><b class="ml-1"> Next year</b></p>
+                    <input type="text" style="width: 100px;">
+                  </div>
+                </div>
+                <br>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-lg-12 mt-3" style="border: 1px solid black; border-bottom: none;">
+        <div class="container">
+          <h2 align="center" style=" margin-top: -50px;">Mailing Information</h2>
+          <br>
+          <div class="row">
+            <div class="col-12">
+              <form>
+                <div class="form-group">
+              
+                  <input type="text" class="form-control" placeholder="Enter mailing address">
+
+                </div>
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row" style="border: 1px solid black; border-top: none;">
+      <div class="col-lg-4">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1"></label>
+            <input type="email" class="form-control ml-3" placeholder="Enter email">
+
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-4">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1"></label>
+            <input type="text" class="form-control" placeholder="Enter Phone">
+
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-4">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1"></label>
+            <input type="text" class="form-control" placeholder="Enter Cell" style="margin-left: -15px;">
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </form>
+<br><br><br><br>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
